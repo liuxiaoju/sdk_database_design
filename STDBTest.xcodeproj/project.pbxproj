@@ -8,19 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		4982C4895588F2E399C8284A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 238E9C469271F96CD0C83D1A /* libPods.a */; };
+		CC1F66DE21144D0B009DF82C /* AccountInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1F66CE21144D07009DF82C /* AccountInfo.m */; };
+		CC1F66DF21144D0B009DF82C /* DBManagerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1F66D021144D08009DF82C /* DBManagerHelper.m */; };
+		CC1F66E021144D0B009DF82C /* AccountInfoCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1F66D421144D09009DF82C /* AccountInfoCallback.m */; };
+		CC1F66E121144D0B009DF82C /* FMDatabaseQueue+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1F66D521144D09009DF82C /* FMDatabaseQueue+Helper.m */; };
+		CC1F66E221144D0B009DF82C /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1F66D621144D09009DF82C /* AccountManager.m */; };
+		CC1F66E321144D0B009DF82C /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1F66D821144D0A009DF82C /* DBManager.m */; };
+		CC1F66E421144D0B009DF82C /* VirtualKeyInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1F66D921144D0A009DF82C /* VirtualKeyInfo.m */; };
+		CC1F66E721144D69009DF82C /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1F66E521144D69009DF82C /* Account.m */; };
 		D30A26F11D97679800DD1DFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D30A26F01D97679800DD1DFD /* main.m */; };
 		D30A26F41D97679800DD1DFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D30A26F31D97679800DD1DFD /* AppDelegate.m */; };
 		D30A26F71D97679900DD1DFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D30A26F61D97679900DD1DFD /* ViewController.m */; };
 		D30A26FA1D97679900DD1DFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30A26F81D97679900DD1DFD /* Main.storyboard */; };
 		D30A26FC1D97679900DD1DFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D30A26FB1D97679900DD1DFD /* Assets.xcassets */; };
 		D30A26FF1D97679900DD1DFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30A26FD1D97679900DD1DFD /* LaunchScreen.storyboard */; };
-		D30A270B1D97695500DD1DFD /* STDBTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D30A27091D97695500DD1DFD /* STDBTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		238E9C469271F96CD0C83D1A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		51A4AB29D545BB213B3F55F7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		6B56250FD9451BDB53921088 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CC1F66CE21144D07009DF82C /* AccountInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountInfo.m; sourceTree = "<group>"; };
+		CC1F66CF21144D07009DF82C /* TableHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableHeader.h; sourceTree = "<group>"; };
+		CC1F66D021144D08009DF82C /* DBManagerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManagerHelper.m; sourceTree = "<group>"; };
+		CC1F66D121144D08009DF82C /* AccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
+		CC1F66D221144D08009DF82C /* DBManagerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManagerHelper.h; sourceTree = "<group>"; };
+		CC1F66D321144D09009DF82C /* AccountInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountInfo.h; sourceTree = "<group>"; };
+		CC1F66D421144D09009DF82C /* AccountInfoCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountInfoCallback.m; sourceTree = "<group>"; };
+		CC1F66D521144D09009DF82C /* FMDatabaseQueue+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDatabaseQueue+Helper.m"; sourceTree = "<group>"; };
+		CC1F66D621144D09009DF82C /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
+		CC1F66D721144D09009DF82C /* FMDatabaseQueue+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabaseQueue+Helper.h"; sourceTree = "<group>"; };
+		CC1F66D821144D0A009DF82C /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		CC1F66D921144D0A009DF82C /* VirtualKeyInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VirtualKeyInfo.m; sourceTree = "<group>"; };
+		CC1F66DA21144D0A009DF82C /* AccountInfoCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountInfoCallback.h; sourceTree = "<group>"; };
+		CC1F66DB21144D0B009DF82C /* VirtualKeyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VirtualKeyInfo.h; sourceTree = "<group>"; };
+		CC1F66DC21144D0B009DF82C /* DBDefineHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBDefineHeader.h; sourceTree = "<group>"; };
+		CC1F66DD21144D0B009DF82C /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		CC1F66E521144D69009DF82C /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		CC1F66E621144D69009DF82C /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
 		D30A26EC1D97679800DD1DFD /* STDBTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STDBTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D30A26F01D97679800DD1DFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D30A26F21D97679800DD1DFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,6 +129,24 @@
 		D30A27061D97695500DD1DFD /* STDB */ = {
 			isa = PBXGroup;
 			children = (
+				CC1F66E621144D69009DF82C /* Account.h */,
+				CC1F66E521144D69009DF82C /* Account.m */,
+				CC1F66D321144D09009DF82C /* AccountInfo.h */,
+				CC1F66CE21144D07009DF82C /* AccountInfo.m */,
+				CC1F66DA21144D0A009DF82C /* AccountInfoCallback.h */,
+				CC1F66D421144D09009DF82C /* AccountInfoCallback.m */,
+				CC1F66D121144D08009DF82C /* AccountManager.h */,
+				CC1F66D621144D09009DF82C /* AccountManager.m */,
+				CC1F66DC21144D0B009DF82C /* DBDefineHeader.h */,
+				CC1F66DD21144D0B009DF82C /* DBManager.h */,
+				CC1F66D821144D0A009DF82C /* DBManager.m */,
+				CC1F66D221144D08009DF82C /* DBManagerHelper.h */,
+				CC1F66D021144D08009DF82C /* DBManagerHelper.m */,
+				CC1F66D721144D09009DF82C /* FMDatabaseQueue+Helper.h */,
+				CC1F66D521144D09009DF82C /* FMDatabaseQueue+Helper.m */,
+				CC1F66CF21144D07009DF82C /* TableHeader.h */,
+				CC1F66DB21144D0B009DF82C /* VirtualKeyInfo.h */,
+				CC1F66D921144D0A009DF82C /* VirtualKeyInfo.m */,
 				D30A270A1D97695500DD1DFD /* Table.h */,
 				D30A27071D97695500DD1DFD /* DBDefine.h */,
 				D30A27081D97695500DD1DFD /* STDBTool.h */,
@@ -155,7 +198,7 @@
 				TargetAttributes = {
 					D30A26EB1D97679800DD1DFD = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = G49DMHKN44;
+						DevelopmentTeam = 2HK9XT9RW5;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -244,10 +287,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D30A270B1D97695500DD1DFD /* STDBTool.m in Sources */,
+				CC1F66E021144D0B009DF82C /* AccountInfoCallback.m in Sources */,
 				D30A26F71D97679900DD1DFD /* ViewController.m in Sources */,
+				CC1F66E121144D0B009DF82C /* FMDatabaseQueue+Helper.m in Sources */,
+				CC1F66DE21144D0B009DF82C /* AccountInfo.m in Sources */,
+				CC1F66DF21144D0B009DF82C /* DBManagerHelper.m in Sources */,
 				D30A26F41D97679800DD1DFD /* AppDelegate.m in Sources */,
 				D30A26F11D97679800DD1DFD /* main.m in Sources */,
+				CC1F66E421144D0B009DF82C /* VirtualKeyInfo.m in Sources */,
+				CC1F66E721144D69009DF82C /* Account.m in Sources */,
+				CC1F66E221144D0B009DF82C /* AccountManager.m in Sources */,
+				CC1F66E321144D0B009DF82C /* DBManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +418,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: ming zong (XE5EV4Y65Q)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = G49DMHKN44;
+				DEVELOPMENT_TEAM = 2HK9XT9RW5;
 				INFOPLIST_FILE = STDBTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -386,7 +436,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: ming zong (XE5EV4Y65Q)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = G49DMHKN44;
+				DEVELOPMENT_TEAM = 2HK9XT9RW5;
 				INFOPLIST_FILE = STDBTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

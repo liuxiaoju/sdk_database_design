@@ -7,7 +7,7 @@
 //
 
 #import "STDBTool.h"
-#import "DBDefine.h"
+//#import "DBDefine.h"
 #import <FMDB.h>
 @implementation STDBTool
 static STDBTool *sharedManager=nil;
@@ -22,7 +22,7 @@ static STDBTool *sharedManager=nil;
     if (self = [super init]) {
         NSFileManager * fmManger = [NSFileManager defaultManager];
         NSArray * paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-        NSString * dbPath = [NSString stringWithFormat:@"%@/BookData.db",[paths count] > 0 ? paths.firstObject : nil];
+        NSString * dbPath = [NSString stringWithFormat:@"%@/sdk.db",[paths count] > 0 ? paths.firstObject : nil];
 //        dbPath = [dbPath stringByAppendingPathComponent:ST_DB_NAME];
         if (![fmManger fileExistsAtPath:dbPath]) {
             [fmManger createFileAtPath:dbPath contents:nil attributes:nil];
@@ -430,6 +430,8 @@ static STDBTool *sharedManager=nil;
     [sqlList addObject:ST_TB_CREATE_BOOKINFO];
     [sqlList addObject:ST_DB_CREATE_BOOKCHAPTERINFO];
     [sqlList addObject:ST_TB_CREATE_CFG];
+    [sqlList addObject:ZOE_DB_CREATE_ACCOUNT];
+    [sqlList addObject:ZOE_DB_CREATE_VEHICLE];
     return sqlList;
 }
 - (void)clearDb{

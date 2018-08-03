@@ -1,0 +1,36 @@
+//
+//  DBDefineHeader.h
+//  SDKTest
+//
+//  Created by v_liuxiaoju on 2018/7/31.
+//  Copyright © 2018年 v_liuxiaoju. All rights reserved.
+//
+
+#ifndef DBDefineHeader_h
+#define DBDefineHeader_h
+#define MRCSharedAppDelegate ((MRCAppDelegate *)[UIApplication sharedApplication].delegate)
+/*
+ CREATE TABLE IF NOT EXISTS ACCOUNT (id INTEGER PRIMARY KEY, ACCOUNT_ID TEXT, ACCOUNT_STATE INTEGER, ACCOUNT_GUEST INTEGER, DATE_LOGIN TEXT, ACCOUNT_CURRENT TEXT);
+ CREATE TABLE IF NOT EXISTS VEHICLE (id INTEGER PRIMARY KEY, ACCOUNT_ID TEXT, VIN TEXT, MAC TEXT, ROLE TEXT, AUTH_CODE TEXT, DATE_START TEXT, DATE_END TEXT, KEY TEXT, KEY_BT TEXT, KEY_BT_SET TEXT);
+
+ */
+//账户
+#define COLUMN_ID id
+#define COLUMN_ACCOUNT_ID ACCOUNT_ID
+#define COLUMN_ACCOUNT_STATE ACCOUNT_STATE
+#define COLUMN_ACCOUNT_GUEST ACCOUNT_GUEST
+#define COLUMN_DATE_LOGIN DATE_LOGIN
+#define COLUMN_ACCOUNT_CURRENT ACCOUNT_CURRENT
+//钥匙
+#define COLUMN_ACCOUNT_ID
+#define COLUMN_VIN
+#define COLUMN_MAC
+#define COLUMN_ROLE
+#define COLUMN_AYTH_CODE
+#define COLUMN_DATE_START
+#define COLUMN_DATE_END
+#define COLUMN_KEY
+#define COLUMN_KEY_BT
+#define COLUMN_KEY_BT_SET
+#define COLUMN_AUTO_KEY
+#endif /* DBDefineHeader_h */
