@@ -34,6 +34,7 @@
 }
 //使用事务插入1000000数据
 - (void)useTransactionInsertData{
+    //sdk数据库征用初始化
     NSMutableArray * sqlList = @[].mutableCopy;
     for (int i = 0 ;i < 100;i ++) {
         NSString * sql = [NSString stringWithFormat:@"INSERT INTO %@ (bookId,file_version,hot_sort,pic,name,path,time) VALUES (%d,'%@','%@','%@','%@','%@',%f)",ST_TB_NAME_BOOKINFO,i,@"2",@"2.0.1",@"pic",@"网络小说",@"path",[[NSDate date]timeIntervalSince1970]];
